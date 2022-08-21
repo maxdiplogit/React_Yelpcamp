@@ -26,7 +26,7 @@ const usersRouter = require('./routes/users');
 
 
 // Database Connection
-const dbURI = 'mongodb+srv://maxdiplo:711CHDha@cluster0.rewi6.mongodb.net/yelpcamp?retryWrites=true&w=majority'
+const dbURI = '';
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((res) => {
